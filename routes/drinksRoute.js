@@ -68,7 +68,7 @@ router.patch('/:id', async (req, res) => {
         if (!product) {
             return res
                 .status(404)
-                .json({ message: 'Товар не найден.' });
+                .json({ message: 'Тoовар не найден.' });
         }
 
         Object.assign(product, {
